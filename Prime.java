@@ -16,6 +16,7 @@ class Prime{
                 j=1;
         }
         if(j==1)
-            System.out.println("The number is not prime");
+            System.out.println("The number is prime");
+        scanner.close();
     }
 }

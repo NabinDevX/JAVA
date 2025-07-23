@@ -6,5 +6,6 @@ class Temp{
         System.out.print("Enter the temperature in celsius: ");
         float n1 = scanner.nextInt();
         System.out.println("The temperature in fahrenheit is = "+(9 * n1 + 32));
+        scanner.close();
     }
 }

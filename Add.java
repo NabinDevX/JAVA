@@ -8,5 +8,6 @@ class Add{
         System.out.print("Enter 2nd number: ");
         int n2 = scanner.nextInt();
         System.out.println("The sum is "+(n1+n2));
+        scanner.close();
     }
 }
